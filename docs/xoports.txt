@@ -1,0 +1,13 @@
+
+The ports data option package works with Netquery v2.x and later.
+Get the option installer package from http://www.virtech.org/tools/
+and upload the data installer files (xoports.php and xoports2.php)
+to your site. Then select the Install Ports Data Table option in
+the Netquery administrator's main configuration panel.
+
+Please note that installing the new data replaces both the port services
+table and its related category flags table.  Unless it has been backed
+up, any data previously entered in those tables will be lost.
+
+Data for the port services table and updates is provided courtesy of
+Colin Tinker, Nick Cross and other contributors at g1gsw.org.

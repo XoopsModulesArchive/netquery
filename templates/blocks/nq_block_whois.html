@@ -1,0 +1,17 @@
+    <form method="post" action="<{$xoops_url}>/modules/netquery/index.php">
+    <input type="hidden" name="querytype" id="querytype" value="whois" />
+    <label for="domain_1"><{$block.lang_whois}></label>
+    <br /><input type="text" name="domain_1" id="domain_1" value="example" size="18" maxlength="50" />
+    <select name="whois_tld_1" id="whois_tld_1">
+        <{foreach item=link from=$block.links}>
+            <{if !empty($link.whois_tld)}>
+                <{if $link.whois_tld == $block.whois_default}>
+                    <option selected="selected" value="<{$link.whois_tld}>"><{$link.whois_tld}></option>
+                <{else /}>
+                    <option value="<{$link.whois_tld}>"><{$link.whois_tld}></option>
+                <{/if}>
+            <{/if}>
+        <{/foreach}>
+    </select>
+    <input style="<{$block.buttonstyle}>" type="image" src="<{$block.buttondir}>/btn_go.gif" alt="<{$block.gobutton_alt}>" />
+    </form>

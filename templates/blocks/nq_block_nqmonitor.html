@@ -1,0 +1,12 @@
+    <{if $block.running == true}>
+        <{$block.lang_running}>
+        <{if $block.verbose == true}> - <{$block.lang_verbose}><{/if}>
+        <{if $block.enabled == true}>
+            - <{$block.lang_screening}>
+            <{if $block.strict == true}> - <{$block.lang_strict}><{/if}>
+        <{/if}>
+    <{else /}>
+        <{$block.lang_notrunning}>
+    <{/if}>
+    <br />
+    <{$block.lang_blocked}> <strong><{$block.bbstats}></strong> <{$block.lang_attempts}> <{$block.log_retain}> <{$block.lang_logdays}>

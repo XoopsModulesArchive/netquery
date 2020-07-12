@@ -1,0 +1,90 @@
+Version 1.0 2004-10-06
+   - initial public release with local/remote ping and TR
+Version 1.1 2004-10-15
+   - added config option for log filepath and datetime
+   - added looking glass router IPv4 and IPv6 interrogation
+Version 1.2 2004-10-22
+   - added HTTP request object HEAD and GET
+Version 1.3 2004-11-11
+   - added MultiWhois with configurable maximum limit
+   - added Port Check lookup table (see credits)
+Version 2.0 2004-12-01
+   - added ports data table update capability
+   - added user submissions for services/exploits
+   - added admin notification on new submissions
+Version 2.1 2005-01-05
+   - added whois lookup server autodiscovery
+   - other minor cosmetic improvements
+Version 2.2 2005-01-28
+   - verfied CSS and XHTML Strict validation
+   - new user interface with query type selection
+   - special handling for whois.denic.de lookups
+Version 2.3 2005-02-15
+   - added "Netquery Quick" blocks feature
+   - added email address validation feature
+   - added comparison popup for admin editing of port entries
+   - updated ports services and category flags data
+Version 2.4 2005-03-10
+   - switched exec table items to module config vars
+   - added admin selection for default whois TLD
+   - added client info to main interface and blocks
+Version 3.0 2005-03-20
+   - added GeoIP address country data lookup
+   - made GeoIP and ports data installer option packages
+   - Converted Netquery to handle separate data pak options
+Version 3.1 2005-04-15
+   - added "top countries" logging and zoomable map links
+   - changed geoflags data pak to use country codes
+Version 3.11 2005-07-25
+   - added sanitizeSysString() function for local exec ops
+Version 3.12 2005-12-10
+   - added traceroute TTL (maximum hops) parameter
+   - added alternate GeoIP mapping  MultiMap option
+Version 3.20 2006-01-08
+   - dig command vulnerability corrected
+   - all <a> tag target attributes dropped (XHTML 1.0 Strict)
+   - all $_HTTP vars dropped (Requires PHP 4.10 or later)
+   - GeoIP data and flag images updated (MaxMind 2006-01-01)
+Version 3.30 2006-02-08
+   - Added more GeoIP country flags (AC, CS, GG, IM, JE, PN, SU)
+   - Added more input field help entries to language files
+   - Revised some UTF-8 header items for W3C XHTML 1.1 compliance
+   - Replaced user & admin entry tables by forms/fieldsets
+   - Fieldset legends include help links and "go" buttons
+   - Selection of "top countries" now works like other query types
+   - Modified output table templates for consistent displays
+   - Revised manual styles, links and ID tags for user help
+   - Made CSS stylesheet selection an administrator config option
+   - Button set selection tracks stylesheet selection automatically
+   - Interface style adapts more readily to various CMS/CSS themes
+Version 3.31 2006-02-24
+   - Modified Whois data table (tld prefix, suffix & unfound fields)
+   - Modified setup for data table upgrading (standalone versioning)
+   - Added upgrade.txt process sequence instuctions for all editions
+Version 3.32 2006-03-15
+   - Moved buttons out of fieldset legends (Firefox rendering issue)
+   - Other minor bug fixes and coding cleanup
+Version 4.0 2006-10-24
+   - Added spambot blocker based on 'Bad Behavior' utility
+   - Integrated access monitoring, client info and logging
+Version 4.05 2006-11-10
+   - Patch for client sniffer output vulnerability
+Version 4.10 2007-01-04
+   - Spambot blocker updated based on Bad Behavior v2.0.8
+   - Access monitoring made independent of CMS block type
+   - Sessions/pagehits counting option for "top countries"
+   - Pseudo-flag images added for IANA reserved address blocks
+   - Admin interface updated for new monitoring/display options
+Version 4.11 2007-03-05
+   - Spambot blocker updated based on Bad Behavior v2.0.10
+Version 4.12 2007-12-11
+   - Spambot blocker updated based on Bad Behavior v2.0.11
+Version 4.13 2008-08-20
+   - Spambot blocker updated based on Bad Behavior v2.0.22
+   - GeoIP countries data updated based on MaxMind 2008-08-03
+Version 4.14 2009-02-02
+   - Spambot blocker updated based on Bad Behavior v2.0.26
+   - GeoIP countries data updated based on MaxMind 2009-02-01
+Version 4.15 2009-09-04
+   - no PHP deprecated functions used (PHP 5.3 compatible)
+   - Spambot blocker updated based on Bad Behavior v2.0.28

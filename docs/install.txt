@@ -1,0 +1,22 @@
+Installation
+---------------
+1. Extract and upload files under /modules directory (/netquery subdirectory).
+2. Install as usual from the modules page of the Xoops admin panel.
+3. Open Netquery's admin panel and configure features to be available to users.
+4. Add Netquery sidebar items as desired in the Xoops blocks admin page.
+---------------
+IMPORTANT NOTES:
+- Access monitoring, screening and/or logging occurs ONLY on pages where the
+  NQ monitor block is loaded and active.  To hide the block status from users,
+  uncheck its "Visible" option in Netquery's main admin configuration panel.
+- Netquery's local ping and traceroute features require read/execute permission
+  for your system's ping and traceroute executables.
+- If you have included the optional GeoIP and/or ports services and exploits data
+  packages, be sure to select the "Install Data" options for those features and
+  follow the on-screen instructions.
+- All packages include two image sets of query selector buttons and several CSS
+  stylesheets selectable as an admin option.  You can also "roll your own" CSS
+  stylesheets.  Please see styles.txt for additonal important notes for Xoops.
+---------------
+That's it -- enjoy!
+Richard Virtue - http://virtech.org/
